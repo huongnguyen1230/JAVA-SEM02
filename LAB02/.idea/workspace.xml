@@ -1,21 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="431415f6-0ffc-47a1-bece-2c740166ff89" name="Default Changelist" comment="" />
+    <list default="true" id="431415f6-0ffc-47a1-bece-2c740166ff89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session05/example01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session05/example02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session05/example03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session05/example04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session05/example05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session05/example06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session05/example07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session05/example08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session05/example09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session05/example10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session05/example11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session06/example01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session06/example02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session06/example03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session06/example04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session06/example05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session06/example06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session06/example07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session06/example08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session06/example09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/session06/example10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1iXnnfKI5xFG8o67oIUkEXsqYFl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.example06">
+    <configuration name="example01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session05.example01" />
+      <module name="LAB02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="session05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session05.example02" />
+      <module name="LAB02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="session05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session05.example03" />
+      <module name="LAB02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="session05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session05.example05" />
+      <module name="LAB02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="session05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session05.example06" />
+      <module name="LAB02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="session05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.example06" />
+        <item itemvalue="Application.example05" />
+        <item itemvalue="Application.example03" />
+        <item itemvalue="Application.example02" />
+        <item itemvalue="Application.example01 (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -25,7 +170,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602062977443</updated>
+      <workItem from="1602126337145" duration="9938000" />
+      <workItem from="1602145405738" duration="3718000" />
+      <workItem from="1602168608924" duration="2880000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="703" height="176" key="GridCell.Tab.0.bottom" timestamp="1602173251255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="703" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602173251255" />
+    <state width="703" height="176" key="GridCell.Tab.0.center" timestamp="1602173251255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="703" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602173251255" />
+    <state width="703" height="176" key="GridCell.Tab.0.left" timestamp="1602173251255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="703" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602173251255" />
+    <state width="703" height="176" key="GridCell.Tab.0.right" timestamp="1602173251255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="703" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602173251255" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1602133354660">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1602133354660" />
   </component>
 </project>
