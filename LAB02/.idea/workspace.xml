@@ -20,30 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="431415f6-0ffc-47a1-bece-2c740166ff89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session05/example01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session05/example02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session05/example03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session05/example04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session05/example05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session05/example06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session05/example07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session05/example08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session05/example09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session05/example10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session05/example11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session06/example01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session06/example02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session06/example03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session06/example04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session06/example05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session06/example06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session06/example07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session06/example08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session06/example09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/session06/example10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/session05/example01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/session05/example01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/session05/example02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/session05/example02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +52,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PRACTICE/out" />
   </component>
-  <component name="RunManager" selected="Application.example06">
+  <component name="RunManager" selected="Application.example03">
     <configuration name="example01 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="session05.example01" />
       <module name="LAB02" />
@@ -141,24 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.example06" />
-        <item itemvalue="Application.example05" />
         <item itemvalue="Application.example03" />
         <item itemvalue="Application.example02" />
         <item itemvalue="Application.example01 (1)" />
+        <item itemvalue="Application.example06" />
+        <item itemvalue="Application.example05" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +141,9 @@
       <workItem from="1602126337145" duration="9938000" />
       <workItem from="1602145405738" duration="3718000" />
       <workItem from="1602168608924" duration="2880000" />
+      <workItem from="1602205919134" duration="1958000" />
+      <workItem from="1602208293983" duration="1269000" />
+      <workItem from="1602209757496" duration="16000" />
     </task>
     <servers />
   </component>
@@ -192,22 +163,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="703" height="176" key="GridCell.Tab.0.bottom" timestamp="1602173251255">
+    <state x="765" y="122" key="FileChooserDialogImpl" timestamp="1602209770782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="703" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602173251255" />
-    <state width="703" height="176" key="GridCell.Tab.0.center" timestamp="1602173251255">
+    <state x="765" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602209770782" />
+    <state width="637" height="176" key="GridCell.Tab.0.bottom" timestamp="1602209737174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="703" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602173251255" />
-    <state width="703" height="176" key="GridCell.Tab.0.left" timestamp="1602173251255">
+    <state width="637" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602209737174" />
+    <state width="637" height="176" key="GridCell.Tab.0.center" timestamp="1602209737174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="703" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602173251255" />
-    <state width="703" height="176" key="GridCell.Tab.0.right" timestamp="1602173251255">
+    <state width="637" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602209737174" />
+    <state width="637" height="176" key="GridCell.Tab.0.left" timestamp="1602209737174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="703" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602173251255" />
+    <state width="637" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602209737174" />
+    <state width="637" height="176" key="GridCell.Tab.0.right" timestamp="1602209737174">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602209737174" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1602133354660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

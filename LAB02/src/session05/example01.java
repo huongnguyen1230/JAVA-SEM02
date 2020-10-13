@@ -2,7 +2,7 @@ package session05;
 
 public class example01 {
     public static void main(String[] args) {
-        int num = 1;
+        int num = 1; //khai bao bien & gan gia tri
         int product = 0;
         //
         while (num <=5){
