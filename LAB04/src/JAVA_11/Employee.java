@@ -22,6 +22,6 @@ public class Employee {
     public void setSalary(int salary){this.salary = salary;}
     public int getAnnualSalary(){return salary*12;}
     public String toString(){
-        return String.format("Employee[id, name = firstName lastName, salary]",ID,firstName, lastName,salary);
+        return String.format("Employee[id = 01, name = nguyen huong, 500]",ID,firstName, lastName,salary);
     }
 }
