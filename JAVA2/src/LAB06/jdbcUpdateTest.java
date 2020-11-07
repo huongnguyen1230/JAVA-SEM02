@@ -6,14 +6,14 @@ public class jdbcUpdateTest {
     public static void main(String[] args) {
         try(
                 //step1: allocate  a database 'Connection' object
-                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookshop", "root", " ");
+                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookshop", "root", "");
                 //step2: allocate a 'statement' object in the connection
                 Statement stmt = conn.createStatement();
                 ){
             //step 3&4: execute a sql update via executeUpdate()
             //which returns  an int indicating the number of rows affected
             //increase the price 7% and qty by 1 for id = 1001
-            String strUpdate = "update books set price = price * 0.7, qty = qty + 1 where id = 1001";
+            String strUpdate = "update books set price = price * 0.7 where id = 1001";
             System.out.println("the SQL statement is: " + strUpdate + "\n");
             int countUpdate = stmt.executeUpdate(strUpdate);
             System.out.println(countUpdate + "records effected. \n");
