@@ -15,13 +15,13 @@ public class ex01 {
         ) {
             //step 3&4: execute a sql update via executeUpdate()
             //which returns  an int indicating the number of rows affected
-            //increase the price 50% and qty by 1 for id = 1001
+            //increase the price 50%
             String strUpdate = "update books set price = price * 5 where title = 'java for dummies'";
             System.out.println("the SQL statement is: " + strUpdate + "\n");
             int countUpdate = stmt.executeUpdate(strUpdate);
             System.out.println(countUpdate + "records effected. \n");
             //set qty = 0 where title is 'java for dummies'
-            strUpdate = "update books set price = price * 5 where title = 'java for dummies'";
+            strUpdate = "update books set qty = 0 where title = 'java for dummies'";
             System.out.println("the SQL statement is: " + strUpdate + "\n");
             countUpdate = stmt.executeUpdate(strUpdate);
             System.out.println(countUpdate + "records effected. \n");
