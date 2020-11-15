@@ -15,7 +15,7 @@ public class cartController {
         ) {
             String select = "Select * from books where idBook = "+book.getIdBook();
             ResultSet rset = stmt.executeQuery(select);
-            System.out.printf("%-30s%-30s%-30s%-30s%-30s","bookID","title","price","qty","discount");
+            System.out.printf("%-30s%-30s%-30s%-30s%-30s","bookID","title","price","qty");
             System.out.println();
             int row = 0;
             int id = 0;

@@ -87,7 +87,7 @@ public class cartView {
         do {
             System.out.println("Enter your email:");
             email = scanner.nextLine();
-            check = cusCtrl.checkEmail(email);
+            cusCtrl.checkEmail(email);
         } while (check != 0);
 
         System.out.println("Choose payment method:\n" +

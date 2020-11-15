@@ -10,10 +10,12 @@ public class Book {
     private int qty;
     private double price;
 
-    public Book(int idBook, String nameBook, String author, String category, double price, int qty) {
+    public Book(int idBook, String nameBook, String author, String category, int years, int status, double price, int qty) {
         this.idBook = idBook;
         this.nameBook = nameBook;
         this.author=author;
+        this.status = status;
+        this.years = years;
         this.price = price;
         this.qty = qty;
         this.category = category;
@@ -22,6 +24,8 @@ public class Book {
         idBook=0;
         nameBook="";
         author="";
+        status = 0;
+        category = " ";
         price=0;
         qty=0;
         years=0;
