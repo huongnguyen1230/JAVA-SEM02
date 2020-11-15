@@ -16,6 +16,7 @@ public class viewdemo {
             System.out.println("1.Add book to library");
             System.out.println("2.Delete books in library");
             System.out.println("3.Update book in library");
+            System.out.println("===========================");
             choice = input.nextInt();
             switch (choice) {
                 case 1:
@@ -27,6 +28,8 @@ public class viewdemo {
                 case 3:
                     pM.updateBook();
                     break;
+                case 4:
+                    pM.select();
                 default:
                     System.out.println("Invalid choice");
                     break;

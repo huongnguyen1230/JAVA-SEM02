@@ -1,4 +1,4 @@
-CREATE DATABASE ebookstore;
+CREATE DATABASE ebookStore;
 /* tao bang books */
 CREATE TABLE books(
   idBook int,

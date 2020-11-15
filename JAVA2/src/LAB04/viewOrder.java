@@ -3,7 +3,7 @@ package LAB04;
 import java.sql.*;
 import java.util.Scanner;
 
-public class ebookstore02 {
+public class viewOrder {
     public static void main(String[] args) {
         try(
                 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookstore", "root", "");

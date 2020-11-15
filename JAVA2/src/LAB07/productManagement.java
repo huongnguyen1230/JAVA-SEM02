@@ -122,23 +122,54 @@ public class productManagement {
         System.out.println("Delete success");
     }
     //update boook
-    void updateBook() {
-        try (
-               //step1: allocate  a database 'Connection' object
-                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookstore", "root", "");//step2: allocate a 'statement' object in the connection
-                Statement stmt = conn.createStatement();
-        ) { //update address
-            System.out.println("Enter book's id: ");
-            int id = input.nextInt();
-            setId(id);
 
-            String strUpdate = "update price, qty where  idBook = " + id;
-            System.out.println("the SQL statement is: " + strUpdate + "\n");
-            int countUpdate = stmt.executeUpdate(strUpdate);
-            System.out.println(countUpdate + " records effected. \n");
+    void updateBook(){
 
-        } catch (SQLException ex) {
-            ex.printStackTrace();
+            Scanner input = new Scanner(System.in);
+            System.out.println("=== Update The books ===");
+            System.out.println("Enter the BookID: ");
+            id = input.nextInt();
+            System.out.println("Update the Price: ");
+            price = input.nextDouble();
+            System.out.println("Update the qty: ");
+            qty = input.nextInt();
+
+            try(
+                    Connection conn = DriverManager.getConnection(
+                            "jdbc:mysql://localhost:3306/ebookstore", "root", "");
+                    Statement stmt = conn.createStatement();
+            ){
+                String sqlUpdate = "update books set price = price and qty = qty where idBook = " + id;
+
+                stmt.executeUpdate(sqlUpdate);
+                System.out.println("records affected. \n");
+                ResultSet rs = stmt.executeQuery(sqlUpdate);
+                if(rs.next() ) {
+                    System.out.println("The correct id");
+                }else {
+                    System.out.println("The Failed id");
+                }
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
         }
-    }
-}
+    void select() {
+        try(Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookshop",
+                "root","");
+            Statement stmt = conn.createStatement();) {
+            String sqlSelect = "Select * from books";
+            System.out.println("The sql statement is: " + sqlSelect);
+            ResultSet rSet = stmt.executeQuery(sqlSelect);
+            while (rSet.next()){
+                System.out.println(rSet.getInt("bookID") + ", "
+                        + rSet.getString("BookName") + ", "
+                        +rSet.getString("author") + ", "
+                        +rSet.getDouble("price") + ", "
+                        +rSet.getInt("qty"));
+            }
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+    }    }
+

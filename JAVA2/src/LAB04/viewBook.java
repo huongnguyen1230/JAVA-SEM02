@@ -3,7 +3,7 @@ package LAB04;
 import java.sql.*;
 import java.util.Scanner;
 
-public class ebookstore {
+public class viewBook {
     public static void main(String[] args) {
         try(
                 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookstore", "root", "");
@@ -48,7 +48,7 @@ public class ebookstore {
             //2.4 tim sach theo ten tac gia//
             Scanner scan = new Scanner(System.in);
             System.out.println("enter author: ");
-            strSelect = "select * from books where author like" + "\'%" + input.next() +"%\'";
+            strSelect = "select * from books where author like" + "\'%" + scan.next() +"%\'";
             System.out.println("the sql statement is: " + strSelect +"\n");
             rset = stmt.executeQuery(strSelect);
             System.out.println("the result is: ");
@@ -67,7 +67,7 @@ public class ebookstore {
             //2.5 hien thi thong tin sach//
             Scanner info = new Scanner(System.in);
             System.out.println("enter author: ");
-            strSelect = "select * from books where idBook like" + "\'%" + input.next() +"%\'";
+            strSelect = "select * from books where idBook like" + "\'%" + info.next() +"%\'";
             System.out.println("the sql statement is: " + strSelect +"\n");
             rset = stmt.executeQuery(strSelect);
             System.out.println("the result is: ");
