@@ -4,9 +4,9 @@ import ebookStore.controller.bookController;
 import ebookStore.controller.cartController;
 import ebookStore.controller.customerController;
 import ebookStore.models.Book;
-import ebookStore.models.cart;
-import ebookStore.models.checkout;
-import ebookStore.models.users;
+import ebookStore.models.Cart;
+import ebookStore.models.Checkout;
+import ebookStore.models.Users;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -24,8 +24,8 @@ public class cartView {
     private Users users;
 
 
-    public List<cart> addToCart(users user) {
-        List<cart> items = new ArrayList<>();
+    public List<Cart> addToCart(Users user) {
+        List<Cart> items = new ArrayList<>();
         Book book = new Book();
         Scanner scanner = new Scanner(System.in);
         char choice = 0;
@@ -41,7 +41,7 @@ public class cartView {
                     int qty = Integer.parseInt(scanner.nextLine());
                     book.setQty(qty);
                     cartController obj = new cartController();
-                    cart item = obj.getItem(book);
+                    Cart item = obj.getItem(book);
                     if (item == null) {
                         break;
                     } else {
@@ -78,7 +78,7 @@ public class cartView {
         return items;
     }
 
-    public checkout checkout(List<cart> list, users user) {
+    public Checkout checkout(List<Cart> list, Users user) {
         
         Scanner scanner = new Scanner(System.in);
         customerController cusCtrl = new customerController();
@@ -105,14 +105,14 @@ public class cartView {
         bookController ctr = new bookController();
         
         ctr.afterPurchase(list, user);
-        checkout checks = new checkout(users, email, payment, address);
+        Checkout checks = new Checkout(user, email, payment, address);
         return checks;
     }
 
-    public void previewOrder(List<cart> list, users user) {
+    public void previewOrder(List<Cart> list, Users user) {
         try (Connection conn = DriverManager.getConnection(url, username, password);
              Statement stmt = conn.createStatement()) {
-            checkout checks = checkout(list, user);
+            Checkout checks = checkout(list, user);
             System.out.println("Confirm you order:");
             System.out.printf("%-30s%-30s%-30s%-30s\n", "ID", "Email", "Payment", "Address");
             System.out.println(checks);

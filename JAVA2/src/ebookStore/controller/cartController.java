@@ -1,14 +1,14 @@
 package ebookStore.controller;
 
 import ebookStore.models.Book;
-import ebookStore.models.cart;
+import ebookStore.models.Cart;
 
 import java.sql.*;
 
 public class cartController {
 
-    public cart getItem(Book book){
-        cart obj = new cart();
+    public Cart getItem(Book book){
+        Cart obj = new Cart();
         try (
                 Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebookstore", "root", "");
                 Statement stmt = conn.createStatement();
@@ -32,7 +32,7 @@ public class cartController {
                 System.out.println("No book with entered ID");
                 return null;
             }else
-                obj = new cart(id, title, price, book.getQty());
+                obj = new Cart(id, title, price, book.getQty());
 
         }catch (SQLException ex) {
             ex.printStackTrace();

@@ -1,28 +1,28 @@
 package ebookStore.models;
 
-public class checkout {
+public class Checkout {
     private Users user;
     private String email;
     private String payment;
     private String address;
 
-    public checkout(){
+    public Checkout(){
         user = null;
         email = "";
         payment = "";
         address="";
     }
-    public checkout(Users user,String email,String payment,String address){
+    public Checkout(Users user, String email, String payment, String address){
         this.address=address;
         this.payment=payment;
         this.email=email;
         this.user=user;
     }
 
-    public checkout(String users, String email, String payment, String address) {
+    public Checkout(String users, String email, String payment, String address) {
     }
 
-    public checkout(Users user, String email, String payment) {
+    public Checkout(Users user, String email, String payment) {
     }
 
     public String getEmail() {

@@ -1,6 +1,6 @@
 package ebookStore.models;
 
-public class cart {
+public class Cart {
     /**models**/
     private int bookID;
     private String title;
@@ -8,21 +8,21 @@ public class cart {
     private int qty;
     private int discount;
 
-    public cart(){
+    public Cart(){
         this.bookID = 0;
         this.title = " ";
         this.price = 0;
         this.qty = 0;
         this.discount = 0;
     }
-    public cart( int bookID, String title, double price, int qty, int discount){
+    public Cart(int bookID, String title, double price, int qty, int discount){
         this.bookID = bookID;
         this.title = title;
         this.price = price;
         this.qty = qty;
         this.discount = discount;
     }
-    public cart(int bookID,String title,double price,int qty){
+    public Cart(int bookID, String title, double price, int qty){
         this.bookID=bookID;
         this.title= title;
         this.price=price;

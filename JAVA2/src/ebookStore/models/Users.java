@@ -1,18 +1,18 @@
 package ebookStore.models;
 
-public class users {
+public class Users {
     private int id;
     private String username;
     private String password;
     private String role;
 
-    public users(){
+    public Users(){
         this.id = 0;
         this.username = " ";
         this.password = " ";
         this.role = "";
     }
-    public users(int id, String username, String password, String role){
+    public Users(int id, String username, String password, String role){
         this.id = id;
         this.username = username;
         this.password = password;

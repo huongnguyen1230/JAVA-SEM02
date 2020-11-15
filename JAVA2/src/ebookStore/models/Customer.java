@@ -1,20 +1,20 @@
 package ebookStore.models;
 
-public class customer {
+public class Customer {
     private String idCus;
     private String nameCus;
     private String address;
     private String email;
     private String phone;
 
-    public customer(){
+    public Customer(){
         idCus= " ";
         nameCus="";
         address="";
         email="";
         phone="";
     }
-    public customer(String idCus,String nameCus,String address,String email,String phone){
+    public Customer(String idCus, String nameCus, String address, String email, String phone){
         this.email=email;
         this.idCus = idCus;
         this.phone=phone;
