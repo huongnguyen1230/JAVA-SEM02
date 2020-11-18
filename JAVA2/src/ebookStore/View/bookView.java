@@ -54,11 +54,13 @@ public class bookView {
                         System.out.println();
                         break;
                     }
+                case 2:
+
+
+
                 default:
                     System.out.println("Invalid choice");
                     break;
-
-                case 2:
             }
         }
         while (choice != 3) ;
